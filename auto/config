@@ -15,4 +15,5 @@ lb config noauto \
     --iso-application "Moeha OS" \
     --iso-publisher "Moeha OS Project" \
     --iso-volume "MOEHA_OS" \
+    --bootappend-live "boot=live components locales=ja_JP.UTF-8 keyboard-layouts=jp timezone=Asia/Tokyo" \
     "${@}"
