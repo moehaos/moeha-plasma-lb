@@ -2,4 +2,6 @@
 
 set -e
 
-apt-get purge -y desktop-base
+apt-get purge -y \
+    desktop-base \
+    sddm-theme-debian-breeze
